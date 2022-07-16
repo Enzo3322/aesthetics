@@ -3,12 +3,18 @@
 	justify-content: center;
 	align-items: center;
 	height: 65vh;
-	background-color: #C4C4C4;
-
+	padding: 20px;
+	background-color: #f08e8e;
+	@media (max-width: 765px) {
+		height: 80vh;
+	}
 	.limiter {
 		display: flex;
 		max-width: 1120px;
 		width: 100%;
+		@media (max-width: 765px) {
+			flex-direction: column;
+		}
 
 		.left {
 			width: 100%;
@@ -20,6 +26,9 @@
 				color: #fff;
 				font-family: Courgette;
 				font-weight: 400;
+				@media (max-width: 765px) {
+					margin-bottom: 50px;
+				}
 			}
 		}
 

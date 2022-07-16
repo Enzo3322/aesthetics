@@ -1,4 +1,5 @@
 import React from 'react';
+import { CarouselLine } from '../../components/Carousel';
 import './style.scss';
 
 export const Design = () => {
@@ -6,13 +7,9 @@ export const Design = () => {
 		<div className="section-container">
 			<div className="limiter">
 				<div className="left">
-					<h2 className="title-section">Design</h2>
+					<h2 className="title-section">Sobrancelhas</h2>
 					<p className="left-text">
 						Especialista em design de sobrancelhas, rena, micro-pigmentação
-						Especialista em design de sobrancelhas, rena, micro-pigmentação
-					</p>
-					<p className="left-text">
-						<b>Lorem ipsum dolor sit amet, consectetur adipiscing elit</b>
 					</p>
 
 					<p className="left-text">
@@ -25,8 +22,13 @@ export const Design = () => {
 						culpa qui officia deserunt mollit anim id est laborum.
 					</p>
 				</div>
-				<div className="right"></div>
+				<div className="right">
+					<div className="img-container">
+						<img src="" alt="" />
+					</div>
+				</div>
 			</div>
+			<CarouselLine />
 		</div>
 	);
 };
