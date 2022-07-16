@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Courgette:regular);
+
+.nav-container {
+	display: flex;
+	justify-content: center;
+	background-color: #333;
+	height: 100px;
+	font-size: #fff;
+
+	.limiter {
+		max-width: 1120px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.logo {
+			padding: 10px 20px;
+		}
+
+		.nav {
+			font-family: Courgette;
+			font-size: 1rem;
+
+			ul {
+				display: flex;
+				list-style: none;
+
+				li {
+					padding: 10px 20px;
+					color: #fff;
+					font-size: 1.5rem;
+				}
+			}
+		}
+	}
+}

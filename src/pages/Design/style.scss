@@ -1,0 +1,42 @@
+.section-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Raleway;
+	margin-top: 50px;
+
+	.limiter {
+		width: 100%;
+		max-width: 1120px;
+		display: flex;
+
+		@media(max-width: 765px) {
+			flex-direction: column;
+		}
+
+		.left {
+			width: 100%;
+
+			.title-section {
+				font-family: Courgette;
+				font-size: 5rem;
+				font-weight: 400;
+			}
+
+			b {
+				font-weight: 900;
+				font-size: 1.125rem;
+			}
+
+			.left-text {
+				font-size: 0.875rem;
+				margin-bottom: 20px;
+				font-size: 1rem;
+			}
+		}
+
+		.right {
+			width: 100%;
+		}
+	}
+}

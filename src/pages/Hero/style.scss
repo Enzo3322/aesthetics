@@ -1,0 +1,30 @@
+.hero-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 65vh;
+	background-color: #C4C4C4;
+
+	.limiter {
+		display: flex;
+		max-width: 1120px;
+		width: 100%;
+
+		.left {
+			width: 100%;
+			align-items: center;
+			display: flex;
+
+			.hero-title {
+				font-size: 3.125rem;
+				color: #fff;
+				font-family: Courgette;
+				font-weight: 400;
+			}
+		}
+
+		.right {
+			width: 100%;
+		}
+	}
+}
